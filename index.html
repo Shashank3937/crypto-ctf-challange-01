@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crypto CTF Challenge</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crypto CTF Challenge</h1>
+        <p>Solve the puzzle and submit the correct flag.</p>
+
+        <h2>Challenge</h2>
+        <p>Decode this:</p>
+
+        <pre>U2FsdGVkX1+5FZP5VilYQmFyYW5nZQ==</pre>
+
+        <h2>Submit Flag</h2>
+        <input id="flagInput" placeholder="flag{your_answer}">
+        <button onclick="checkFlag()">Submit</button>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="static/script.js"></script>
+</body>
+</html>
